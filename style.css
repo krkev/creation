@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+.container{
+    color: #f2f2f2;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    background: #039edb;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #039edb;
+}
+.container h1,p{
+   font-size: 22px;
+   padding: 10px;
+   line-height: 30px;
+}
+.container #btn{
+    color: #f2f2f2;
+    margin: 5px 20px;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 3px solid #f2f2f2;
+    background: transparent;
+}
+.content{
+    width: 400px;
+     height: auto;
+     padding: 10px;
+     display: none;
+     border-radius: 8px;
+     box-shadow: 0 5px 10px #00f5d4e7;
+     background:#00f5d4e7;
+     display: none;
+}
+.content #btn2{
+    color: #f2f2f2;
+    margin: 5px 20px;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 3px solid #f2f2f2;
+    background: transparent;
+}
+section{
+    transition: all 0.4s ease-out;
+    display: none;
+}
+section .parent{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.parent .card{
+    width: 250px;
+    height: auto;
+   display: flex;
+   margin: 30px;
+   padding: 10px;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: space-between;
+   background: #fff;
+   border-radius: 10px;
+   box-shadow: 0 5px 10px #212121;
+   transition: all 0.4s ease-out;
+}
+section .card span h3{
+    transform: translateY(20px);
+    font-size: 20px;
+    font-family: 'pacifico', sans-serif;
+    font-weight: 200;
+}
+section .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translateY(20px);
+    border: 5px solid orangered;
+}
+section .card .info i{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #f2f2f2;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: rgba(255, 68, 0, 0.945);
+}
+.parent .card:hover{
+    transform: scale();
+     transform: translate(60px, 20px);
+    }
+.parent .card:hover{
+        transform: scale(0.9);
+    }
+.parent .card:hover{
+        transform: scale(0.9);
+    }
